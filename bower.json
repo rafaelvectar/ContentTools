@@ -1,5 +1,5 @@
 {
-  "name": "rv-fork-content-tools)",
+  "name": "rv-fork-content-tools",
   "description": "A JS library for building WYSIWYG editors for HTML content",
   "main": [
     "build/content-tools.js"
