@@ -1,5 +1,5 @@
 {
-  "name": "ContentTools",
+  "name": "ContentTools (RF Fork)",
   "description": "A JS library for building WYSIWYG editors for HTML content",
   "main": [
     "build/content-tools.js",
