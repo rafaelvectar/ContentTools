@@ -8212,10 +8212,10 @@
       if (!this.dispatchEvent(this.createEvent('revert'))) {
         return;
       }
-      confirmMessage = ContentEdit._('Your changes have not been saved, do you really want to lose them?');
-      if (ContentEdit.Root.get().lastModified() > this._rootLastModified && !window.confirm(confirmMessage)) {
-        return false;
-      }
+      //confirmMessage = ContentEdit._('Your changes have not been saved, do you really want to lose them?');
+      //if (ContentEdit.Root.get().lastModified() > this._rootLastModified && !window.confirm(confirmMessage)) {
+      //  return false;
+      //}
       this.revertToSnapshot(this.history.goTo(0), false);
       return true;
     };
