@@ -12,20 +12,20 @@
 **Using bower**
 
 ```
-bower install --save ContentTools
+bower install --save rv-fork-content-tools
 ```
 
 **Using npm**
 
 ```
-npm install --save ContentTools
+npm install --save rv-fork-content-tools
 ```
 
 ## Building
 To build the library you'll need to use Grunt. First install the required node modules ([grunt-cli](http://gruntjs.com/getting-started) must be installed):
 ```
-git clone https://github.com/GetmeUK/ContentTools.git
-cd ContentTools
+git clone https://github.com/rafaelvectar/rv-fork-content-tools.git
+cd rv-fork-content-tools
 npm install
 ```
 
